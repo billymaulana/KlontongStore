@@ -2,7 +2,7 @@
 import { ofetch } from 'ofetch'
 
 export const useMyFetch = ofetch.create({
-  baseURL: 'https://637854245c477765122f22a7.mockapi.io/api/v1/',
+  baseURL: '/api',
   async onRequest({ request }) {
     console.log('fetch request', request)
   },
