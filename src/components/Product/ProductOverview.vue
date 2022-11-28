@@ -17,7 +17,7 @@ defineProps({
         {{ product.name }}
       </h1>
       <h2 font-bold f-32 text-black mb-4>
-        ${{ product.price }}
+        Rp.{{ product.price }}
       </h2>
       <p mb-4>
         {{ product.description }}
