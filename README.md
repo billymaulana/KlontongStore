@@ -33,3 +33,4 @@ If you don't have pnpm installed,
 ```
 
 API Mockup : https://mockapi.io/
+Demo: https://klontongstore-billymaulana.netlify.app
