@@ -42,9 +42,13 @@ const submitUpdateProduct = async () => {
 
 <template>
   <section>
-    <div sm="container max-w-screen-sm" lg="container max-w-[80%] w-full min-h-screen h-full overflow-hidden" text="text-black dark:text-gray-200">
-      <div row justify-center min-h-screen overflow-hidden px-20 mx-auto sm="py-20" lg="py-24">
+    <div sm="container max-w-screen-sm" lg="container w-full min-h-screen h-full overflow-hidden" text="text-black dark:text-gray-200">
+      <div row justify-center min-h-screen overflow-hidden mx-auto px-5 sm="py-20" lg="py-24">
         <div col-12>
+          <a href="/" flex item-center pb-5 pl-0>
+            <i i-mdi:arrow-left text-gray text-20px self-center />
+            <span font-bold>Back</span>
+          </a>
           <h1 f-28 font-bold>
             Add Product
           </h1>

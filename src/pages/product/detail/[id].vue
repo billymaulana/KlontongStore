@@ -11,9 +11,15 @@ onMounted(async () => {
 
 <template>
   <section>
-    <div sm="container max-w-screen-sm" lg="container max-w-[80%] w-full min-h-screen h-full overflow-hidden" text="text-black dark:text-gray-200">
-      <div row justfy-center min-h-screen overflow-hidden px-20 mx-auto sm="py-20" lg="py-24">
-        <ProductOverview v-if="product" :product="product" />
+    <div sm="container max-w-screen-sm" lg="container w-full min-h-screen h-full overflow-hidden" text="text-black dark:text-gray-200">
+      <div row justfy-center min-h-screen overflow-hidden mx-auto sm="py-20" lg="py-24">
+        <div sm="col-12 py-10" lg="items-center col-6 mx-auto">
+          <a href="/" flex item-center>
+            <i i-mdi:arrow-left text-gray text-20px self-center />
+            <span font-bold>Back</span>
+          </a>
+          <ProductOverview v-if="product" :product="product" />
+        </div>
       </div>
     </div>
   </section>

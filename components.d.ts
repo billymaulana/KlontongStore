@@ -15,6 +15,7 @@ declare module '@vue/runtime-core' {
     ProductSummary: typeof import('./src/components/Product/ProductSummary.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    Spinner: typeof import('./src/components/Spinner/Spinner.vue')['default']
     TableProduct: typeof import('./src/components/Table/TableProduct.vue')['default']
   }
 }
