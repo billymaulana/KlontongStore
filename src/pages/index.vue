@@ -25,7 +25,7 @@ const searchProduct = useDebounceFn(async () => {
     await productStore.filterProducts(search.value.toLocaleLowerCase())
 }, 500)
 const newProduct = () => {
-  router.push('/product/new-product')
+  router.push('/product/new')
 }
 
 // pagination
