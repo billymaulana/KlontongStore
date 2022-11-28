@@ -91,6 +91,7 @@ const submitUpdateProduct = async () => {
             </div>
             <div class="mb-5">
               <label font-medium text-black>Category Name:</label>
+              <input v-model="productData.categoryName" class="form-control" type="text" placeholder="Category Name">
             </div>
             <button type="submit" btn-primary mt-5 :disabled="disableSubmit" :class="disableSubmit ? 'text-gray' : 'text-white'">
               Submit
