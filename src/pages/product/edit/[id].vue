@@ -50,7 +50,7 @@ const submitUpdateProduct = async () => {
             <span font-bold>Back</span>
           </a>
           <h1 f-28 font-bold>
-            Add Product
+            Update Product
           </h1>
           <form w-full mx-auto block mt-5 @submit.prevent="submitUpdateProduct">
             <div class="mb-5">
