@@ -43,7 +43,7 @@ const submitNewProduct = async () => {
             <i i-mdi:arrow-left text-gray text-20px self-center />
             <span font-bold>Back</span>
           </a>
-          <h1 font-bold>
+          <h1 f-28 font-bold>
             Add Product
           </h1>
           <form w-full mx-auto block mt-10 @submit.prevent="submitNewProduct">
